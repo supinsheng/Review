@@ -1,6 +1,7 @@
 <?php
 
 define('ROOT',__DIR__."/../");
+require ROOT.'vendor/autoload.php';
 require(ROOT.'public/functions.php');
 
 if(isset($_SERVER['PATH_INFO'])){
